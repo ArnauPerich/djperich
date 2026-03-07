@@ -358,6 +358,10 @@
     .embed-wrapper iframe { height: 120px; }
     .mixes-inner { padding: 0 30px; }
   }
+  @media (pointer: coarse), (hover: none) {
+    body { cursor: auto; }
+    .cursor, .cursor-ring { display: none; }
+  }
 </style>
 </head>
 <body>
@@ -383,10 +387,6 @@
     <div class="hero-cta">
       <a href="#set" class="btn-primary">Escuchar Set</a>
     </div>
-  </div>
-  <div class="hero-scroll">
-    <div class="scroll-line"></div>
-    <span>Scroll</span>
   </div>
 </section>
 <div class="tag-strip">
